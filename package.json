@@ -1,11 +1,16 @@
 {
-  "name": "challenge4",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "challenge4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass sass:css --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.55.0"
+    }
 }
+
